@@ -1,0 +1,830 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mouse+Memoirs&family=PT+Sans+Narrow&display=swap');
+
+*{
+     
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;}
+    
+h1{
+    color: rgba(0, 0, 0, 0);
+    font-size: 7rem;
+    justify-content: right;
+}
+
+main section article p{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+html{
+    font-size: 62.5%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-image: url(../img/gray-abstraction-geometric-background-material-design-stylish-gray-background.jpg);
+}
+
+.ulNav{
+    background-color: rgb(28, 28, 28, 0.95);
+    padding: auto;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: 3px;
+    border-color: seashell;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulNav ul li {
+    display: inline-block;
+    color:white;
+    margin-right: 4rem;
+    margin: 20px;
+}
+.ulNav ul li a{
+    color: white;
+    line-height: 3rem;
+    font-size: 3.8rem;
+    text-decoration: none;
+    font-family: 'Mouse Memoirs', sans-serif 
+
+}
+
+.ulNav img{
+    display: inline-block;
+    height: 6rem;
+    width: 16rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.7rem;
+}
+body{
+    position: relative;
+    padding-bottom: 2rem;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+}
+main section p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+main article{
+    text-align: center;
+}
+main section article{
+    width:auto ;
+    height:auto ;
+    border-style: double ;
+}
+/*ARTICULOS*/
+ 
+.AgregarAlCarro{
+    width: 19rem;
+    height: 5rem;
+    color: white;
+    font-size: 3rem;
+    margin-top: 5rem;
+    background: rgb(24,24,24);
+    background: linear-gradient(90deg, rgba(24,24,24,1) 0%, rgba(134,134,135,1) 50%, rgba(9,9,9,1) 100%);
+    border-radius: 10px;
+    border-color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.AgregarAlCarroDisco{
+    margin-bottom: 3rem;
+}
+.AgregarAlCarroProcesador{
+    margin-bottom: 3rem;
+}
+.AgregarAlCarroRefri{
+    margin-bottom: 3rem;
+}
+.AgregarAlCarroSSD{
+    margin-bottom: 3rem;
+}
+.AgregarAlCarroGPU{
+    margin-bottom: 3rem;
+}
+
+.img img{
+    width: 50rem;
+    height: 50rem; 
+}
+    
+.discoRigido{
+    position: auto;
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.discoRigidoImg{
+    width: 45rem;
+}
+.fuenteDePoder{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.gabinete{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.cpu{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.cpuImg{
+    width: 50rem;
+    padding-top: 20px;
+}
+.ram{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.ramImg{
+    width: 45rem;
+    padding-right: auto;
+}
+.mouse{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.refriLiquida{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.ssd{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.gpu{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: rgb(72, 69, 69);
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+
+/*ARTICULOS*/  
+
+main section article img{
+    width: auto;
+    height: auto;
+
+}
+
+footer a{
+    margin: 1rem;
+}
+.nuestroProposito{
+    font-size: 7rem;
+    line-height: 8rem;
+    text-align: center;
+    background-color: rgb(140, 137, 137);
+    height: auto;
+    margin-top: auto;
+    padding-top: auto;
+}
+.parrafoNuestroProposito{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(46, 46, 46);
+}
+.inline-block{
+    
+    display: inline-block;
+}
+.h3{
+    font-size: 3.5rem;
+}
+.registro{
+    margin-top: 20px;
+    font-size: 4rem;
+    flex-direction: column;
+}
+
+#inlineblock{
+    display:inline-block ;
+}
+.input{
+    width: 50%;
+    height: auto;
+}
+.contacto{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+textarea{
+    line-height: 3.5rem;
+    margin: 15px;
+}
+.conteiner{
+    display: flex;
+}
+.article{
+    flex-direction: row;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.pArticle{
+    color: white;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+    background-color: black;
+    background-size:  auto;
+}
+.redes{
+    justify-content: center;
+    border: 7px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(28, 28, 28);
+    width: auto;
+    /* margin-top: auto;
+    margin-bottom: 0%; */
+    margin-top: 20%;
+} 
+.footerPrivacidad{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}    
+
+ 
+.text-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.map{
+    display: inline-block;
+    width: 100%;
+}
+.imgNuestroProposito{
+    width: auto;
+    justify-content: center;
+    background-color: black;
+}
+.pPoliticaDePrivacidad{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+h3{
+    background-color: black;
+    color: white;
+    width: 30rem;
+}
+.notificaciones{
+    color: black;
+}
+.privacidad {
+    justify-content: center; 
+    font-size: 7rem;
+    
+}
+.activarDesactivar{
+    display: flex;
+    background-color: rgb(28, 28, 28);
+}
+.labelNotificaciones{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: white;
+}
+.input{
+    width: 20rem;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+.input2{
+    width: 20rem;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+h4{
+   color: rgb(0, 0, 0); 
+   font-size: 5rem;
+   justify-content: start;
+   display: flex;
+}
+.acercaDeFooter{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0%;
+    justify-content: center;
+}
+.imgTarjetas{
+    display:inline-block;
+}
+.tarjetas{
+    margin-left: 3rem;
+    display: inline-flex;
+    margin-bottom: 10rem;
+    font-size: 4rem;
+    padding-right: 0%;
+    vertical-align: middle;
+    vertical-align: 150%;
+}
+.tarjetasP{
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+}
+.imgTransferencia{
+    display: inline-block;
+}
+.transferencia{
+    margin-left: 3rem;
+    display: inline-flex;
+    margin-bottom: 10rem;
+    font-size: 4rem;
+    padding-right: 0%;
+    vertical-align: middle;
+    vertical-align: 150%;  
+}
+
+.transferenciaP{
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+}
+.PrivacidadBackground{
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+}
+.inline-block{
+    display: inline-block;
+}
+.metodosDePago1{
+    background-color: rgb(28, 28, 28);
+}
+.metodosDePago{
+    margin-bottom: 2.5rem;
+    color: white;
+}
+.mp4{
+ 
+   justify-content:center ;
+}
+#filtros{
+    display:flex ;
+    font-size: 3rem;
+    border: none;
+    flex-direction: column;
+    background-color: rgb(255, 0, 0 , 0)
+    
+}
+.contenidoCategorias{  
+    
+    font-size: 1.5rem;
+    color: black;
+    flex-direction: column;
+    width: 20%;
+    
+}
+.b{
+    flex-direction: column;
+}
+.contenidoCategoriasOl{
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    .grid{    
+        display: grid;
+        grid-template-columns: 1fr;
+    /*grid-template-rows: repeat(5,auto);*/
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "nav"
+        "header"
+        "cat"
+        "main"
+        "img"
+        "pie"
+        ;
+     }
+     
+     .categorias{
+        width: 80%;
+        padding-bottom:  auto;
+        grid-area: cat;
+        margin-top: 22 .5rem;
+        margin-left: 10rem;
+        border-style: solid;
+        margin-bottom: 0rem;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px
+    }   
+    .formCategorias{
+        
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content:flex-start ;
+        font-size: 3rem;
+        background: rgb(48,48,48);
+        background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px ;
+    }
+    .imgPcGamer{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        grid-area: img ; 
+    } 
+
+    .redes{
+        justify-content: center;
+        border: 7px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(28, 28, 28);
+        
+        /* margin-top: auto;
+        margin-bottom: 0%; */
+        margin-top: 20%;
+    }   
+    /*.gridRegistro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas: 
+        "nav"
+        "foto"
+        "form"
+        "ref"
+        "pie";*/
+
+        .ulNav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            
+        }
+
+        .ulNav ul{
+            
+            text-align: right;
+            display: flex;
+            
+        }
+        .ulNav ul li{
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 5px;
+            
+        }
+        .ulNav ul li a{
+            font-size: 2rem;
+        }
+
+/*Acerca de*/
+
+    
+    
+    
+    .imgNuestroProposito{
+        width: 100%;
+        justify-content: center;
+        background-color: black;
+    }
+/*privacidad*/
+.imgTarjetas{
+    display:inline-block;
+}
+.tarjetas{
+    margin-left: 3rem;
+    display: inline-flex;
+    margin-bottom: 10rem;
+    font-size: 2rem;
+    padding-right: 0%;
+    vertical-align: middle;
+    vertical-align: 150%;
+}
+.tarjetasP{
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+}
+.imgTransferencia{
+    display: inline-block;
+    width: 100%;
+}
+.transferencia{
+    margin-left: 3rem;
+    display: inline-flex;
+    margin-bottom: 10rem;
+    font-size: 4rem;
+    padding-right: 0%;
+    vertical-align: middle;
+    vertical-align: 150%;  
+}
+
+.transferenciaP{
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+}
+.PrivacidadBackground{
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+}    
+.labelNotificaciones{
+    font-size: 2rem;
+    line-height: 4.5rem;
+    color: white;
+}
+.input{
+    width: 20rem;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+.input2{
+    width: 10rem;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+}
+
+
+@media (min-width:768px){
+    .grid{    
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas: 
+        "nav nav "
+        "cat header "
+        "cat main "
+        "img img "
+        "pie pie "
+        ;
+     }
+    
+
+.categorias{
+   width: 80%;
+   padding-bottom:  auto;
+   grid-area: cat;
+   margin-top: 22.5rem;
+   margin-left: 10rem;
+   margin-bottom: -9rem;
+   
+}
+.formCategorias{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content:flex-start ;
+    font-size: 3rem;
+    background: rgb(48,48,48);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
+    
+ }
+ .imgPcGamer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    grid-area: img ;
+}
+.redes{
+    justify-content: center;
+    border: 7px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(28, 28, 28);
+    
+    /* margin-top: auto;
+    margin-bottom: 0%; */
+    margin-top: 20%;
+} 
+/*Acerca de*/
+.imgNuestroProposito{
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+}
+
+@media (min-width:1333px) {
+.grid{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    /*grid-template-rows: repeat(5,auto);*/
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "cat header header"
+    "cat main main"
+    "img img img"
+    "pie pie pie"
+    ;
+ }
+ .imgPcGamer{
+    width: 100%;
+    grid-area: img ;
+ }
+ #imgPcGamer2{
+    width: 100%;
+    margin-right: -10rem;
+    border-style: solid;
+}
+.gridRegistro{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: 
+    "nav nav nav"
+    "foto form ref"
+    "pie pie pie";
+}
+}
+
+.nav{
+    grid-area: nav;
+}
+.header{
+    grid-area: header;
+}
+.categorias{
+    padding-bottom:  auto;
+    grid-area: cat;
+    margin-top: 22.5rem;
+    margin-left: 2rem;
+    margin-bottom: 73.9rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px 
+    
+}
+.main{
+    grid-area: main;
+    margin-bottom: 30rem;
+}
+/*
+.aside{
+    grid-area: aside;
+    margin-top: 20rem;
+}  
+*/  
+.footer{
+    grid-area: pie;
+}
+.imgPcGamer{
+
+    width: 100%;
+    /*   padding-right: 10rem;
+
+    margin-left: -20rem;*/
+    grid-area: img ;
+}
+#imgPcGamer2{
+    width: 100%;
+    margin-left: -16rem;
+}
+
+.formCategorias{
+    background-color: white;
+    justify-content:flex-start ;
+    font-size: 3rem;
+    background: rgb(48,48,48);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+}
+.MasRelevante{
+    text-align: center;
+}
+.probando{
+    display: flex;
+}
+.gridRegistro{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: 
+    "nav nav nav"
+    "foto form ref"
+    "pie pie pie";
+}
+.ulNav{
+    grid-area: nav
+}
+.formRegistro{
+    grid-area: form;
+    border-style: groove;
+    border-color: black;
+    flex-direction: column;
+}
+.fotoDePerfil{
+    border-style: double;
+    grid-area: foto;
+    flex-direction: column;
+}
+footer{
+    grid-area: pie;
+}
+.fotoDePerfilH2{
+    justify-content: center;
+}
+.imgFotoDePerfil{
+    justify-content: center;
+}
+.codigo{
+    display: flex;
+    font-size: 5.5rem;
+}
+.codigoButton{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.referidos{
+    grid-area: ref;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: groove;
+    border-color: black;
+    padding-left: 3px;
+    margin-right: 27rem;
+}
