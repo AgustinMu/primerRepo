@@ -35,16 +35,16 @@
 
     </nav>
 
-    <main class="conteiner">
-    <div class="fotoDePerfil">    
+    
+    <section class="fotoDePerfil">    
         <h1>Registro</h1>
         <h2 class="fotoDePerfilH2">Foto de Perfil</h2>
         <img src="../img/Admin-Profile-PNG-Isolated-Pic.png" alt="Imagen-de-perfil" class="imgFotoDePerfil">
         <textarea name="Descripcion" id="Descripcion" cols="40" rows="4" placeholder="Descripcion del perfil"></textarea>
-    </div>
-    <div class="text-center formRegistro">
+    </section>
+    <section class="text-center formRegistro">
             <h2>Formulario de Registro:</h2>
-            <section>
+            <div>
                 <form action="Guardado-de-registro.php" class="registro conteiner">
                     <input type="text" id="Username" placeholder="Username" class="input">
                     
@@ -57,16 +57,14 @@
                     <input type="reset" value="Cancelar" id="Cancelar" class="input2">
                     <input type="submit" value="Enviar" id="Enviar" class="input2">
                 </form>
-            </section>
-    </div>
-    <aside> 
-      <div class="referidos">
+            </div>
+    </section>
+    <aside class="referidos"> 
         <h2>Codigo de referidos:</h2>
         <p class="codigo">24871-RthYn</p>
         <input type="button" value="Copiar" class="codigoButton">
-      </div>
     </aside>
-    </main>
+    
     <footer class="redes conteiner footer">
         <a href="https://www.facebook.com" target="_blank">
             <img src="../img/facebook.png" alt="Seguinos en facebook">

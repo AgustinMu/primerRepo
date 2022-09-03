@@ -261,6 +261,7 @@ footer a{
     margin-top: 20px;
     font-size: 4rem;
     flex-direction: column;
+    margin-left: 50rem;
 }
 
 #inlineblock{
@@ -795,11 +796,14 @@ h4{
     border-style: groove;
     border-color: black;
     flex-direction: column;
+    margin-top: 2rem
 }
 .fotoDePerfil{
     border-style: double;
     grid-area: foto;
     flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 footer{
     grid-area: pie;
@@ -809,14 +813,19 @@ footer{
 }
 .imgFotoDePerfil{
     justify-content: center;
+    width: 100%;
 }
 .codigo{
-    display: flex;
+    margin-left: 6rem;
     font-size: 5.5rem;
+    justify-content: center;
 }
 .codigoButton{
     font-size: 4rem;
     margin-left: 5rem;
+    width: 75%;
+    height: 40%;
+    margin-bottom: 2rem;
 }
 .referidos{
     grid-area: ref;
@@ -826,5 +835,6 @@ footer{
     border-style: groove;
     border-color: black;
     padding-left: 3px;
-    margin-right: 27rem;
+    margin-right: 2rem;
+    margin-top: 2rem
 }
