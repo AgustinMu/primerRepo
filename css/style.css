@@ -98,6 +98,10 @@ main section article{
     border-radius: 10px;
     border-color: rgb(95, 94, 94);
     cursor: pointer;
+    animation-name: animatediv;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
 }
 .AgregarAlCarroDisco{
     margin-bottom: 3rem;
@@ -837,4 +841,13 @@ footer{
     padding-left: 3px;
     margin-right: 2rem;
     margin-top: 2rem
+}
+@keyframes animatediv{
+    0%{width: 100px;}
+    50%{width: 200px;}
+    100%{width: 100px;}
+}
+.rotate:hover{
+    transform: rotateZ(360deg);
+    transition: transform 3s;
 }
