@@ -458,6 +458,7 @@ h4{
 .b{
     flex-direction: column;
 }
+
 .contenidoCategoriasOl{
     text-decoration: none;
 }
@@ -466,7 +467,6 @@ h4{
     .grid{    
         display: grid;
         grid-template-columns: 1fr;
-    /*grid-template-rows: repeat(5,auto);*/
         grid-template-rows: auto;
         grid-template-areas: 
         "nav"
@@ -850,4 +850,9 @@ footer{
 .rotate:hover{
     transform: rotateZ(360deg);
     transition: transform 3s;
+}
+.asd{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
